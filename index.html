@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <section id="judul">
         <h1></h1>
-        <div id="popUpDaftar">
+        <div id="popUpRegister">
+            <div id="add-player">
+                <input type="text" id="player-name" placeholder="Enter player name">
+                <button onclick="startGame()">Mulai</button>
+            </div>
 
         </div>
         <div id="leaderboard">
+            <h1> High Scores</h1>
+            <table id="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body">
 
+                </tbody>
+            </table>
+            <script src="script/leaderboard.js"> </script>
         </div>
-        <!-- <div id=""></div> -->
     </section>
-    <section id="kuis">
+    
+    
+    <section id="quiz">
         <div id="soal">
-
+            
         </div>
         <div id="jawabanBox">
             <div id="jawaban">
-
+                
             </div>
         </div>
     </section>
     <section class="selamat">
         <div id="pesanKesan">
-
+            
         </div>
         <div id="tombolKelar">
             <button>Lagi Dong</button>
             <button>Udahan Cape</button>
         </div>
-    </section>
+    </section> -->
 </body>
+
 </html>
