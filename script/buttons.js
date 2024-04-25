@@ -254,13 +254,15 @@ nextButtons.forEach((button, index) => {
                 break
             }
         }
-        if (currentPageIndex < 5) {
+        if (currentPageIndex < 10) {
             if (answerButtons[selectedAnswerIndex].innerText === bankSoal[nomor].answer[0]) {
-                score += 20
+                score += 10
             }
         }
 
+        // console.log(currentPageIndex, ' |||', pages.length)
         if (currentPageIndex < pages.length - 1) {
+            // console.log('masuk');
             currentPageIndex++
             showPage(currentPageIndex)
         } else {
@@ -296,7 +298,7 @@ function showPage(index) {
             random = true
             recNoSoal.push(nomor)
         }
-        if (recNoSoal.length === 5) {
+        if (recNoSoal.length === 10) {
             random = true
         }
     }

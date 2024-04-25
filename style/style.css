@@ -6,6 +6,15 @@ h1{
     font-family: "Nunito Sans", sans-serif;
 }
 
+/* css dari bryan */
+
+.page {
+    display: none;
+}
+#selesai{
+    display: none;
+}
+
 .centered-content {
     padding: 2rem;
 }
