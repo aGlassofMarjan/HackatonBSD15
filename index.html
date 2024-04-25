@@ -16,7 +16,7 @@
         <div id="halamanUtama" class="flex">
             <div class="flex ml-20">
                 <div class="text-center">
-                    <h1 class="text-9xl font-bold mb-9">Quiz <br> Odyssey</h1>
+                    <h1 class="text-9xl font-bold mb-9 mt-20">Quiz <br> Odyssey</h1>
 
                     <!-- tombol pertama mulai -->
                     <button id="openPopup" class="rounded-md bg-indigo-600 px-14 py-6 text-2xl mt-45 font-semibold 
@@ -25,35 +25,52 @@
                 </div>
                 <div class="text-center">
                     <div class="relative left-1/2 mt-5 flex w-max-w-max">
-                        <div class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 
-                        shadow-lg ring-1 ring-gray-900 p-5">
-                            <div class="pt-5 text-xl" id="leaderboard">
+                        <div style="background-color: #0d2556; color: aliceblue;" class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 
+                        shadow-lg ring-1 ring-gray-900 p-7">
+                            <div class="pt-5 text-xl" id="leaderboard"
+                                style="background-color: #0d2556; color: aliceblue;">
                                 <p class="font-bold">Leaderboard</p>
-                                <hr class="font-bold m-3">
+
                                 <!-- jbjbj -->
-                                <table id="leaderboard-table" class="min-w-full divide-y divide-gray-200">
-                                    <thead class="bg-gray-50">
+                                <table id="leaderboard-table" class="min-w-full mt-6">
+                                    <thead class="bg-gray-50 text-center align-center justify-center"
+                                        style="background-color: #204693; color: aliceblue;">
                                         <tr>
-                                            <th scope="col" class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right 
-                                                text-gray-500">
+                                            <th class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                                <div>
+                                                    <h2 class="font-bold">Rank</h2>
+                                                </div>
+                                            </th>
+                                            <th class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                                <div>
+                                                    <h2 class="font-bold">Name</h2>
+                                                </div>
+                                            </th>
+                                            <th class="px-4 py-4 text-sm font-medium whitespace-nowrap">
+                                                <div>
+                                                    <h2 class="font-bold">Score</h2>
+                                                </div>
+                                            </th>
+                                            <!-- <th scope="col" class="py-3 px-4 text-sm font-normal text-center">
                                                 <button class="flex items-center gap-x-3 focus:outline-none">
                                                     <span>Rank</span>
                                                 </button>
-                                            </th>
+                                            </th> -->
 
-                                            <th scope="col"
-                                                class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500">
+                                            <!-- <th scope="col"
+                                                class="px-12 py-3 text-sm font-normal text-left rtl:text-right">
                                                 Name
                                             </th>
 
                                             <th scope="col"
-                                                class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500">
+                                                class="px-4 py-3 text-sm font-normal text-left rtl:text-right">
                                                 Score
-                                            </th>
+                                            </th> -->
                                         </tr>
                                     </thead>
-                                    <tbody id="leaderboard-body" class="bg-white divide-y divide-gray-200">
-                                        <tr>
+                                    <tbody id="leaderboard-body" class="bg-white divide-y divide-blue-800"
+                                        style="background-color: #0d2556; color: aliceblue;">
+                                        <!-- <tr>
                                             <td class="px-4 py-4 text-sm font-medium whitespace-nowrap">
                                                 <div>
                                                     <h2 class="font-medium text-gray-800"></h2>
@@ -69,7 +86,7 @@
                                                     <p class="text-gray-500"></p>
                                                 </div>
                                             </td>
-                                        </tr>
+                                        </tr> -->
                                     </tbody>
                                 </table>
                             </div>

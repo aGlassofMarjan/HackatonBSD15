@@ -28,9 +28,9 @@ const updateLeaderboard = () => {
 
   topUser.forEach((user, index) => {
     const row = `<tr>
-    <td class="text-md text-gray-800">${index + 1}</td>
-    <td class="text-md text-gray-800">${user.name}</td>
-    <td class="text-md text-gray-800">${user.score}</td>
+    <td style="color: aliceblue;" class="px-2 py-2 text-md font-medium text-md text-gray-800">${index + 1}</td>
+    <td style="color: aliceblue;" class="px-2 py-2 text-sm font-medium text-md text-gray-800">${user.name}</td>
+    <td style="color: aliceblue;" class="px-2 py-2 text-sm font-medium text-md text-gray-800">${user.score}</td>
     </tr>`;
     leaderboardBody.innerHTML += row;
   });
