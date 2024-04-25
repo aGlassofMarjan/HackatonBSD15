@@ -73,7 +73,7 @@ let bankSoal = [
         ]
     },
     { // Number 9
-        question: 'What is the abbreviation for WHO (World Health Organization)?',
+        question: 'What is the abbreviation for WHO?',
         answer: [
             "World Health Organization",
             "World Happy Organization",
@@ -236,12 +236,14 @@ let nextButtons = document.querySelectorAll(".nextButton")
 let backButton = document.getElementById("kembali")
 let currentPageIndex = 0
 let score = 0
+let pertama = 0
 
 document.getElementById('mulai').addEventListener('click', function () {
     recNoSoal = []
     currentPageIndex = 0
     showPage(currentPageIndex)
     document.getElementById('halamanUtama').style.display = 'none'
+    document.getElementById('popupForm').style.display = 'none'
 })
 
 nextButtons.forEach((button, index) => {
@@ -276,6 +278,7 @@ nextButtons.forEach((button, index) => {
 
 backButton.addEventListener("click", function () {
     score = 0
+    pertama = 0
     currentPageIndex = 0
     showPage(currentPageIndex)
 
@@ -333,4 +336,5 @@ function showPage(index) {
             page.style.display = 'none'
         }
     })
+
 }
