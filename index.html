@@ -1,39 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Quiz</title>
+    <style>
+        .page {
+            display: none;
+        }
+
+        #selesai {
+            display: none;
+        }
+    </style>
 </head>
+
 <body>
-    <section id="judul">
-        <h1></h1>
-        <div id="popUpDaftar">
+    <div id="halamanUtama">
+        <h1>Ini Landing Page</h1>
+        <p>Landing Page</p>
+        <button id="mulai">Mulai</button>
+    </div>
 
-        </div>
-        <div id="leaderboard">
+    <div class="page">
+        <h1 class='soal'>Question <span class="questionNumber"></span></h1>
+        <p class="questionText"></p>
+        <button class="nextButton">A</button>
+        <button class="nextButton">B</button>
+        <button class="nextButton">C</button>
+        <button class="nextButton">D</button>
+    </div>
 
-        </div>
-        <!-- <div id=""></div> -->
-    </section>
-    <section id="kuis">
-        <div id="soal">
+    <div class="page">
+        <h1 class='soal'>Question <span class="questionNumber"></span></h1>
+        <p class="questionText"></p>
+        <button class="nextButton">A</button>
+        <button class="nextButton">B</button>
+        <button class="nextButton">C</button>
+        <button class="nextButton">D</button>
+    </div>
 
-        </div>
-        <div id="jawabanBox">
-            <div id="jawaban">
+    <div class="page">
+        <h1 class='soal'>Question <span class="questionNumber"></span></h1>
+        <p class="questionText"></p>
+        <button class="nextButton">A</button>
+        <button class="nextButton">B</button>
+        <button class="nextButton">C</button>
+        <button class="nextButton">D</button>
+    </div>
 
-            </div>
-        </div>
-    </section>
-    <section class="selamat">
-        <div id="pesanKesan">
+    <div class="page">
+        <h1 class='soal'>Question <span class="questionNumber"></span></h1>
+        <p class="questionText"></p>
+        <button class="nextButton">A</button>
+        <button class="nextButton">B</button>
+        <button class="nextButton">C</button>
+        <button class="nextButton">D</button>
+    </div>
 
-        </div>
-        <div id="tombolKelar">
-            <button>Lagi Dong</button>
-            <button>Udahan Cape</button>
-        </div>
-    </section>
+    <div class="page">
+        <h1 class='soal'>Question <span class="questionNumber"></span></h1>
+        <p class="questionText"></p>
+        <button class="nextButton">A</button>
+        <button class="nextButton">B</button>
+        <button class="nextButton">C</button>
+        <button class="nextButton">D</button>
+    </div>
+
+    <div id="selesai">
+        <h1 id="skorAkhir">Selesai</h1>
+        <p>Quiz Selesai!</p>
+        <button id="kembali">Ke Halaman Utama</button>
+    </div>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
