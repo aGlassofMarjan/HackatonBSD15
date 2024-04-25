@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+h1{
+    color:aliceblue;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.centered-content {
+    padding: 2rem;
+}
+
+.statusBar {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aliceblue;
+}
+
+  /* Custom class for highlighted background */
+/* .highlight-background {
+    background-color: #f3f4f6;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+} */
+.highlight-background {
+    background-color: #0d2556;
+    color: aliceblue; 
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);/* You can change this color as needed */
+}
+
+.solid-button {
+    background-color: #15182E;
+}
+
+/* #judul{
+    margin: 0;
+    width: auto;
+    height: auto;
+
+} */
+
+.title{
+    text-align: center;
+    justify-content: center;
+    display: inline;
+}
+
+/* ###### Button styling */
+
