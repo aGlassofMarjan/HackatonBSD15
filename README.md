@@ -6,3 +6,7 @@ Group 2 Hackaton BSD-15 Repository
 ## Objective
 
 Membuat website simple tentang tebak tebakan dengan mengimplementasikan vanilla Javascript, HTML, CSS
+
+## Demo
+
+https://hackaton-bsd-15.vercel.app/
